@@ -9,13 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dfb3d8e-1cf9-47a7-aac8-8a4d0ffeb173" name="Changes" comment="testing jsp format">
-      <change afterPath="$PROJECT_DIR$/src/main/java/somePackage/someClass.java" afterDir="false" />
+    <list default="true" id="2dfb3d8e-1cf9-47a7-aac8-8a4d0ffeb173" name="Changes" comment="using request parameters">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FirstServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FirstServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/greeting.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/greeting.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +61,7 @@
       <recent name="D:\JavaProjects\learningJavaEE\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.greeting.jsp">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.69">
     <configuration name="Tomcat 9.0.69" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.69" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -262,7 +258,8 @@
       <workItem from="1668682367457" duration="594000" />
       <workItem from="1668703304821" duration="568000" />
       <workItem from="1668749226946" duration="7988000" />
-      <workItem from="1668884323918" duration="1983000" />
+      <workItem from="1668884323918" duration="3421000" />
+      <workItem from="1668889308946" duration="990000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1668754102559</created>
@@ -278,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668756204358</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="using request parameters">
+      <created>1668886713943</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668886713943</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +302,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="testing jsp format" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing jsp format" />
+    <MESSAGE value="using request parameters" />
+    <option name="LAST_COMMIT_MESSAGE" value="using request parameters" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
