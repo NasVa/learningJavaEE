@@ -12,11 +12,13 @@
 </head>
 <body>
     <p>
+        <%@ page import="somePackage.someClass"%>
         <%
             java.util.Date now = new java.util.Date();
-            String str = "Current date : " + now.toString();
+            String str = someClass.getSomeString() + now.toString();
         %>
-        <%= str %>
+        <% String name = request.getParameter("myname");%>
+        <%= str + ".\n" + name + ", hey you"%>
     </p>
 </body>
 </html>

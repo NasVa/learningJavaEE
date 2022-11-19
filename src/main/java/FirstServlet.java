@@ -9,8 +9,9 @@ public class FirstServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         PrintWriter writer =response.getWriter();
+        String username = request.getParameter("name");
         writer.println("<html>");
-        writer.println("<h3>salamm</h3>");
+        writer.println("<h3>salamm, dear " + username + "</h3>");
         writer.println("</html>");
     }
 
